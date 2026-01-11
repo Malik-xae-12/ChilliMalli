@@ -1,17 +1,6 @@
 import MainLayout from "@/components/MainLayout";
-import { Download } from "lucide-react";
 
 export default function Menu() {
-  const menuCategories = [
-    "Starters",
-    "Main Course",
-    "Biryani & Rice",
-    "Seafood",
-    "Chinese",
-    "Desserts",
-    "Beverages",
-  ];
-
   return (
     <MainLayout>
       <div className="min-h-screen bg-gradient-to-b from-background to-card py-20">
@@ -22,44 +11,28 @@ export default function Menu() {
             Chinese, Biryani, and Seafood dishes.
           </p>
 
-          {/* Menu Categories Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-            {menuCategories.map((category) => (
-              <div
-                key={category}
-                className="bg-card border border-border rounded-xl p-8 text-center hover:border-primary transition-all"
-              >
-                <h3 className="text-2xl font-semibold text-foreground mb-2">
-                  {category}
-                </h3>
-                <p className="text-muted-foreground text-sm">
-                  Premium selection of {category.toLowerCase()}
-                </p>
-              </div>
-            ))}
+          {/* Menu Image */}
+          <div className="max-w-4xl mx-auto mb-16">
+            <img
+              src="https://cdn.builder.io/o/assets%2F6376a2fe1a9940668d50fc229eee8324%2Fb7f07f04ce1c408f9a3d4d6669890c9b?alt=media&token=432f46b2-c4a6-4139-9090-5faeb61e92ef&apiKey=6376a2fe1a9940668d50fc229eee8324"
+              alt="Chilli Malli Restaurant Menu"
+              className="w-full rounded-xl shadow-lg hover:shadow-xl transition-shadow"
+            />
           </div>
 
-          {/* Download Menu Button */}
+          {/* Contact Message */}
           <div className="text-center">
-            <button className="btn-primary inline-flex items-center gap-2">
-              <Download size={20} />
-              Download Menu (PDF)
-            </button>
-          </div>
-
-          {/* Placeholder Message */}
-          <div className="mt-20 text-center">
             <div className="bg-primary/10 border border-primary/30 rounded-xl p-8 max-w-2xl mx-auto">
               <p className="text-muted-foreground">
-                The full digital menu with detailed descriptions and images is
-                coming soon. For now, please contact us at{" "}
+                For detailed information about our dishes and special offers,
+                please contact us at{" "}
                 <a
                   href="tel:+916374700585"
                   className="text-primary font-semibold hover:underline"
                 >
                   +91 63747 00585
                 </a>{" "}
-                or use WhatsApp to view our menu.
+                or use WhatsApp to view our complete menu.
               </p>
             </div>
           </div>

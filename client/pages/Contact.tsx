@@ -86,27 +86,18 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Map Placeholder */}
-            <div className="bg-card border border-border rounded-xl overflow-hidden h-96 md:h-full flex items-center justify-center">
-              <div className="text-center">
-                <MapPin
-                  size={40}
-                  className="mx-auto mb-2 text-muted-foreground"
-                />
-                <p className="text-muted-foreground text-sm">
-                  3, Gandhi Irwin Road
-                  <br />
-                  Egmore, Chennai
-                </p>
-                <a
-                  href="https://maps.google.com/?q=3+Gandhi+Irwin+Road+Egmore+Chennai"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary font-semibold text-sm mt-4 inline-block hover:underline"
-                >
-                  Open in Google Maps
-                </a>
-              </div>
+            {/* Google Map */}
+            <div className="bg-card border border-border rounded-xl overflow-hidden h-96 md:h-full">
+              <iframe
+                width="100%"
+                height="100%"
+                frameBorder="0"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.0038254346673!2d80.24657!3d13.0070256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526e23c3c3c3c3%3A0x0!2s3%2C%20Gandhi%20Irwin%20Road%2C%20Egmore%2C%20Chennai!5e0!3m2!1sen!2sin!4v1234567890"
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="rounded-xl"
+              />
             </div>
           </div>
 
