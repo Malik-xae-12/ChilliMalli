@@ -28,13 +28,17 @@ export default function AboutSection() {
 
             <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-border">
               <div className="text-center">
-                <div className="text-2xl sm:text-3xl font-bold text-primary mb-2">15+</div>
+                <div className="text-2xl sm:text-3xl font-bold text-primary mb-2">
+                  15+
+                </div>
                 <p className="text-xs sm:text-sm text-muted-foreground">
                   Years of Culinary Excellence
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-2xl sm:text-3xl font-bold text-primary mb-2">50+</div>
+                <div className="text-2xl sm:text-3xl font-bold text-primary mb-2">
+                  50+
+                </div>
                 <p className="text-xs sm:text-sm text-muted-foreground">
                   Signature Dishes
                 </p>

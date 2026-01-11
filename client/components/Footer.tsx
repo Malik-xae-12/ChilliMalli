@@ -27,7 +27,9 @@ export default function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-semibold text-foreground mb-3 sm:mb-4 text-sm sm:text-base">Quick Links</h4>
+            <h4 className="font-semibold text-foreground mb-3 sm:mb-4 text-sm sm:text-base">
+              Quick Links
+            </h4>
             <ul className="space-y-2 text-xs sm:text-sm">
               <li>
                 <a
@@ -65,7 +67,9 @@ export default function Footer() {
             <p className="text-muted-foreground text-xs sm:text-sm">
               12:00 Noon – 12:00 Midnight
             </p>
-            <p className="text-muted-foreground text-xs sm:text-sm mt-2">Open all days</p>
+            <p className="text-muted-foreground text-xs sm:text-sm mt-2">
+              Open all days
+            </p>
           </div>
 
           {/* Contact */}

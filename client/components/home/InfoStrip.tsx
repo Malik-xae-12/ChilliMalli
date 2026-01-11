@@ -8,17 +8,26 @@ export default function InfoStrip() {
           {/* Rating */}
           <div className="flex flex-col items-center gap-1 sm:gap-2">
             <div className="flex items-center gap-1 sm:gap-2">
-              <Star size={18} className="sm:w-5 sm:h-5 fill-primary text-primary" />
-              <span className="text-xl sm:text-2xl font-bold text-primary">4.3</span>
+              <Star
+                size={18}
+                className="sm:w-5 sm:h-5 fill-primary text-primary"
+              />
+              <span className="text-xl sm:text-2xl font-bold text-primary">
+                4.3
+              </span>
             </div>
-            <p className="text-xs sm:text-sm text-muted-foreground">152 Dining Ratings</p>
+            <p className="text-xs sm:text-sm text-muted-foreground">
+              152 Dining Ratings
+            </p>
           </div>
 
           {/* Price */}
           <div className="flex flex-col items-center gap-1 sm:gap-2">
             <div className="flex items-center gap-1 sm:gap-2">
               <DollarSign size={18} className="sm:w-5 sm:h-5 text-primary" />
-              <span className="text-xl sm:text-2xl font-bold text-primary">₹1000</span>
+              <span className="text-xl sm:text-2xl font-bold text-primary">
+                ₹1000
+              </span>
             </div>
             <p className="text-xs sm:text-sm text-muted-foreground">For Two</p>
           </div>
@@ -42,7 +51,9 @@ export default function InfoStrip() {
                 12 PM
               </span>
             </div>
-            <p className="text-xs sm:text-sm text-muted-foreground">to 12 AM Daily</p>
+            <p className="text-xs sm:text-sm text-muted-foreground">
+              to 12 AM Daily
+            </p>
           </div>
         </div>
       </div>

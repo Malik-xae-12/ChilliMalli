@@ -75,7 +75,9 @@ export default function SpecialtiesSection() {
 
                 <div className="flex items-center gap-2 text-primary opacity-0 group-hover:opacity-100 transition-opacity">
                   <Flame size={16} />
-                  <span className="text-xs sm:text-sm font-semibold">Popular Choice</span>
+                  <span className="text-xs sm:text-sm font-semibold">
+                    Popular Choice
+                  </span>
                 </div>
               </div>
             </div>

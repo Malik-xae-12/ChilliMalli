@@ -28,7 +28,8 @@ export default function HeroSection() {
           <h1
             className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white"
             style={{
-              textShadow: '0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 8px rgba(0, 0, 0, 0.7), 0 6px 12px rgba(0, 0, 0, 0.6)'
+              textShadow:
+                "0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 8px rgba(0, 0, 0, 0.7), 0 6px 12px rgba(0, 0, 0, 0.6)",
             }}
           >
             Chilli Malli
@@ -36,7 +37,8 @@ export default function HeroSection() {
           <h2
             className="text-lg sm:text-xl md:text-2xl text-white font-semibold"
             style={{
-              textShadow: '0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 8px rgba(0, 0, 0, 0.7), 0 6px 12px rgba(0, 0, 0, 0.6)'
+              textShadow:
+                "0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 8px rgba(0, 0, 0, 0.7), 0 6px 12px rgba(0, 0, 0, 0.6)",
             }}
           >
             Egmore's Favourite Multi Cuisine Restaurant
@@ -44,7 +46,8 @@ export default function HeroSection() {
           <p
             className="text-base sm:text-lg md:text-xl text-white max-w-2xl mx-auto px-2"
             style={{
-              textShadow: '0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 8px rgba(0, 0, 0, 0.7), 0 6px 12px rgba(0, 0, 0, 0.6)'
+              textShadow:
+                "0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 8px rgba(0, 0, 0, 0.7), 0 6px 12px rgba(0, 0, 0, 0.6)",
             }}
           >
             Authentic South Indian, Chinese, Biryani & Seafood Delights
