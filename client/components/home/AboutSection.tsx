@@ -1,11 +1,11 @@
 export default function AboutSection() {
   return (
-    <section className="py-20 px-4 bg-gradient-to-b from-background to-card">
+    <section className="py-12 sm:py-16 md:py-20 px-4 bg-gradient-to-b from-background to-card">
       <div className="container mx-auto">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-center mb-12">About Chilli Malli</h2>
+          <h2 className="text-center mb-8 sm:mb-12">About Chilli Malli</h2>
 
-          <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
+          <div className="space-y-4 sm:space-y-6 text-base sm:text-lg text-muted-foreground leading-relaxed">
             <p>
               Chilli Malli is a popular Egmore dining destination offering a
               wide variety of South Indian, Chinese, Biryani, Kebab, Seafood and
@@ -26,24 +26,24 @@ export default function AboutSection() {
               experience.
             </p>
 
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mt-8 pt-8 border-t border-border">
+            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-border">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">15+</div>
-                <p className="text-sm text-muted-foreground">
+                <div className="text-2xl sm:text-3xl font-bold text-primary mb-2">15+</div>
+                <p className="text-xs sm:text-sm text-muted-foreground">
                   Years of Culinary Excellence
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">50+</div>
-                <p className="text-sm text-muted-foreground">
+                <div className="text-2xl sm:text-3xl font-bold text-primary mb-2">50+</div>
+                <p className="text-xs sm:text-sm text-muted-foreground">
                   Signature Dishes
                 </p>
               </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-primary mb-2">
+              <div className="text-center col-span-2 sm:col-span-1">
+                <div className="text-2xl sm:text-3xl font-bold text-primary mb-2">
                   1000+
                 </div>
-                <p className="text-sm text-muted-foreground">
+                <p className="text-xs sm:text-sm text-muted-foreground">
                   Happy Customers Monthly
                 </p>
               </div>
