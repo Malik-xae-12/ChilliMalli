@@ -12,9 +12,9 @@ export default function HeroSection() {
         }}
       />
       <div
-        className="absolute inset-0 bg-gradient-to-br from-red-900/40 via-amber-800/50 to-black/75"
+        className="absolute inset-0"
         style={{
-          backgroundImage: `linear-gradient(135deg, rgba(139, 0, 0, 0.4) 0%, rgba(165, 42, 42, 0.3) 50%, rgba(0, 0, 0, 0.8) 100%)`,
+          backgroundImage: `linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(80, 20, 20, 0.5) 50%, rgba(0, 0, 0, 0.8) 100%)`,
         }}
       />
 
