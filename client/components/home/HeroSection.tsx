@@ -4,11 +4,17 @@ import { Phone, MessageCircle } from "lucide-react";
 export default function HeroSection() {
   return (
     <div className="relative h-screen flex items-center justify-center overflow-hidden">
-      {/* Background with gradient overlay */}
+      {/* Background with image and gradient overlay */}
       <div
-        className="absolute inset-0 bg-gradient-to-br from-red-900/30 via-amber-800/40 to-black/60"
+        className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: `linear-gradient(135deg, rgba(139, 0, 0, 0.3) 0%, rgba(165, 42, 42, 0.2) 50%, rgba(0, 0, 0, 0.7) 100%)`,
+          backgroundImage: `url('https://images.pexels.com/photos/35532821/pexels-photo-35532821.jpeg')`,
+        }}
+      />
+      <div
+        className="absolute inset-0 bg-gradient-to-br from-red-900/40 via-amber-800/50 to-black/75"
+        style={{
+          backgroundImage: `linear-gradient(135deg, rgba(139, 0, 0, 0.4) 0%, rgba(165, 42, 42, 0.3) 50%, rgba(0, 0, 0, 0.8) 100%)`,
         }}
       />
 
