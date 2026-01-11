@@ -25,13 +25,28 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="animate-fade-in space-y-4 sm:space-y-6">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white drop-shadow-lg">
+          <h1
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white"
+            style={{
+              textShadow: '0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 8px rgba(0, 0, 0, 0.7), 0 6px 12px rgba(0, 0, 0, 0.6)'
+            }}
+          >
             Chilli Malli
           </h1>
-          <h2 className="text-lg sm:text-xl md:text-2xl text-amber-100 drop-shadow-md">
+          <h2
+            className="text-lg sm:text-xl md:text-2xl text-white font-semibold"
+            style={{
+              textShadow: '0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 8px rgba(0, 0, 0, 0.7), 0 6px 12px rgba(0, 0, 0, 0.6)'
+            }}
+          >
             Egmore's Favourite Multi Cuisine Restaurant
           </h2>
-          <p className="text-base sm:text-lg md:text-xl text-gray-100 drop-shadow-md max-w-2xl mx-auto px-2">
+          <p
+            className="text-base sm:text-lg md:text-xl text-white max-w-2xl mx-auto px-2"
+            style={{
+              textShadow: '0 2px 4px rgba(0, 0, 0, 0.8), 0 4px 8px rgba(0, 0, 0, 0.7), 0 6px 12px rgba(0, 0, 0, 0.6)'
+            }}
+          >
             Authentic South Indian, Chinese, Biryani & Seafood Delights
           </p>
 
