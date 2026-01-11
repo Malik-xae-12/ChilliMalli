@@ -9,28 +9,28 @@ export default function FloatingButtons() {
         href="https://wa.me/916374700585?text=Hi%20Chilli%20Malli%2C%20I%20would%20like%20to%20know%20more%20about%20your%20restaurant"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-24 right-6 bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-lg transition-all animate-bounce z-40"
+        className="fixed bottom-16 sm:bottom-24 right-4 sm:right-6 bg-green-500 hover:bg-green-600 text-white rounded-full p-3 sm:p-4 shadow-lg transition-all animate-bounce z-40"
         title="WhatsApp"
       >
-        <MessageCircle size={24} />
+        <MessageCircle size={20} className="sm:w-6 sm:h-6" />
       </a>
 
       {/* Floating Call Button */}
       <a
         href="tel:+916374700585"
-        className="fixed bottom-40 right-6 bg-primary hover:opacity-90 text-primary-foreground rounded-full p-4 shadow-lg transition-all animate-bounce z-40"
+        className="fixed bottom-28 sm:bottom-40 right-4 sm:right-6 bg-primary hover:opacity-90 text-primary-foreground rounded-full p-3 sm:p-4 shadow-lg transition-all animate-bounce z-40"
         title="Call us"
       >
-        <Phone size={24} />
+        <Phone size={20} className="sm:w-6 sm:h-6" />
       </a>
 
       {/* Floating Book Table Button */}
       <Link
         to="/book-table"
-        className="fixed bottom-56 right-6 bg-accent hover:opacity-90 text-accent-foreground rounded-full p-4 shadow-lg transition-all z-40 flex items-center justify-center"
+        className="fixed bottom-40 sm:bottom-56 right-4 sm:right-6 bg-accent hover:opacity-90 text-accent-foreground rounded-full p-3 sm:p-4 shadow-lg transition-all z-40 flex items-center justify-center"
         title="Book a table"
       >
-        <BookOpen size={24} />
+        <BookOpen size={20} className="sm:w-6 sm:h-6" />
       </Link>
     </>
   );
