@@ -3,7 +3,7 @@ import { Phone, MessageCircle } from "lucide-react";
 
 export default function HeroSection() {
   return (
-    <div className="relative h-screen flex items-center justify-center overflow-hidden">
+    <div className="relative h-96 md:h-[500px] flex items-center justify-center overflow-hidden">
       {/* Background with image and gradient overlay */}
       <div
         className="absolute inset-0 bg-cover bg-center"
