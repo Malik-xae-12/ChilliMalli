@@ -19,9 +19,11 @@ export default function Header() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <div className="text-2xl font-display font-bold text-primary">
-              Chilli Malli
-            </div>
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F6376a2fe1a9940668d50fc229eee8324%2F8739f1b4d74e4e998ff00dbca59e5539?format=webp&width=800"
+              alt="Chilli Malli"
+              className="h-16 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
