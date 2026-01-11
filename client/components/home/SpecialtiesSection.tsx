@@ -23,13 +23,15 @@ const specialties = [
     id: 4,
     title: "Seafood Specials",
     description: "Fresh catch prepared with aromatic spices",
-    image: "https://images.pexels.com/photos/17320991/pexels-photo-17320991.jpeg",
+    image:
+      "https://images.pexels.com/photos/17320991/pexels-photo-17320991.jpeg",
   },
   {
     id: 5,
     title: "Chinese Dishes",
     description: "Indo-Chinese fusion with crispy textures",
-    image: "https://images.pexels.com/photos/35588679/pexels-photo-35588679.jpeg",
+    image:
+      "https://images.pexels.com/photos/35588679/pexels-photo-35588679.jpeg",
   },
   {
     id: 6,
@@ -67,7 +69,9 @@ export default function SpecialtiesSection() {
                 <h3 className="text-xl font-semibold text-foreground mb-3">
                   {specialty.title}
                 </h3>
-                <p className="text-muted-foreground mb-4">{specialty.description}</p>
+                <p className="text-muted-foreground mb-4">
+                  {specialty.description}
+                </p>
 
                 <div className="flex items-center gap-2 text-primary opacity-0 group-hover:opacity-100 transition-opacity">
                   <Flame size={16} />

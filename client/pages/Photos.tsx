@@ -12,13 +12,15 @@ export default function Photos() {
     {
       id: 1,
       title: "Chicken Biryani",
-      image: "https://images.pexels.com/photos/6260921/pexels-photo-6260921.jpeg",
+      image:
+        "https://images.pexels.com/photos/6260921/pexels-photo-6260921.jpeg",
       category: "Biryani",
     },
     {
       id: 2,
       title: "Seafood Curry",
-      image: "https://images.pexels.com/photos/17320991/pexels-photo-17320991.jpeg",
+      image:
+        "https://images.pexels.com/photos/17320991/pexels-photo-17320991.jpeg",
       category: "Seafood",
     },
     {
@@ -30,19 +32,22 @@ export default function Photos() {
     {
       id: 4,
       title: "Grilled Kebabs",
-      image: "https://images.pexels.com/photos/2233729/pexels-photo-2233729.jpeg",
+      image:
+        "https://images.pexels.com/photos/2233729/pexels-photo-2233729.jpeg",
       category: "Starters",
     },
     {
       id: 5,
       title: "Fresh Seafood Platter",
-      image: "https://images.pexels.com/photos/35588679/pexels-photo-35588679.jpeg",
+      image:
+        "https://images.pexels.com/photos/35588679/pexels-photo-35588679.jpeg",
       category: "Seafood",
     },
     {
       id: 6,
       title: "Indian Thali",
-      image: "https://images.pexels.com/photos/8818723/pexels-photo-8818723.jpeg",
+      image:
+        "https://images.pexels.com/photos/8818723/pexels-photo-8818723.jpeg",
       category: "Special",
     },
   ];
