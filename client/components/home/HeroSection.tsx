@@ -24,39 +24,39 @@ export default function HeroSection() {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
-        <div className="animate-fade-in space-y-6">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white drop-shadow-lg">
+        <div className="animate-fade-in space-y-4 sm:space-y-6">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white drop-shadow-lg">
             Chilli Malli
           </h1>
-          <h2 className="text-xl md:text-2xl text-amber-100 drop-shadow-md">
+          <h2 className="text-lg sm:text-xl md:text-2xl text-amber-100 drop-shadow-md">
             Egmore's Favourite Multi Cuisine Restaurant
           </h2>
-          <p className="text-lg md:text-xl text-gray-100 drop-shadow-md max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg md:text-xl text-gray-100 drop-shadow-md max-w-2xl mx-auto px-2">
             Authentic South Indian, Chinese, Biryani & Seafood Delights
           </p>
 
           {/* Call to Action Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">
+          <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center mt-8 sm:mt-10 px-2">
             <Link
               to="/book-table"
-              className="btn-primary inline-flex items-center justify-center gap-2 text-lg"
+              className="btn-primary inline-flex items-center justify-center gap-2 text-sm sm:text-base md:text-lg px-4 sm:px-6 py-2 sm:py-3"
             >
               Book a Table
             </Link>
             <a
               href="tel:+916374700585"
-              className="btn-secondary inline-flex items-center justify-center gap-2 text-lg"
+              className="btn-secondary inline-flex items-center justify-center gap-2 text-sm sm:text-base md:text-lg px-4 sm:px-6 py-2 sm:py-3"
             >
-              <Phone size={20} />
+              <Phone size={18} className="sm:w-5 sm:h-5" />
               Call Now
             </a>
             <a
               href="https://wa.me/916374700585?text=Hi%20Chilli%20Malli%2C%20I%20would%20like%20to%20know%20more%20about%20your%20restaurant"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors inline-flex items-center justify-center gap-2 text-lg"
+              className="bg-green-600 hover:bg-green-700 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold transition-colors inline-flex items-center justify-center gap-2 text-sm sm:text-base md:text-lg"
             >
-              <MessageCircle size={20} />
+              <MessageCircle size={18} className="sm:w-5 sm:h-5" />
               WhatsApp
             </a>
           </div>
